@@ -1,0 +1,77 @@
+/*!
+ * Author: Niranjan Ravichandran
+ * Created on: 12/12/15
+ * Copyright Adavers.com
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+
+.intro-section {
+    height: 80%;
+    text-align: center;
+    background: #fff;
+    background: url("../images/home.jpg");
+    background-size: cover;
+    color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.search-wrap {
+  margin: 30px auto;
+  width: 300px;
+}
+
+.footer-main {
+  padding: 25px 50px;
+  background-color: #414054;
+  color: #fff;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-main a {
+  color: #20bce6;
+}
+
+.footer-main a:hover {
+  opacity: 0.6;
+  text-decoration: none;
+  -webkit-transition: opacity 500ms ease-out 0.5s;
+  -moz-transition: opacity 500ms ease-in-out 0.5s;
+  -o-transition: opacity 500ms ease-in-out 0.5s;
+  transition: opacity 500ms ease-in-out 0.5s;
+}
